@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#E9E2F3">
+  <title>تفقُد | رعاية يحملها الجميع</title>
+  <meta name="description" content="تفقُد يجمع العائلة في دائرة رعاية واحدة حول المريض: الأدوية والقياسات والمواعيد في مكان واحد.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Readex+Pro:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+  <!-- Soft color fields that show through the glass -->
+  <div class="bg" aria-hidden="true"><span class="b1"></span><span class="b2"></span><span class="b3"></span></div>
+
+  <header class="header glass">
+    <a class="brand" href="#top" data-i18n="brand">تفقُد</a>
+    <nav class="nav">
+      <a href="#features" data-i18n="navFeatures">المزايا</a>
+      <a href="#demo" data-i18n="navDemo">العرض</a>
+      <a href="#about" data-i18n="navAbout">قصتنا</a>
+      <a href="#faq" data-i18n="navFaq">أسئلة</a>
+      <a href="#join" data-i18n="navJoin">التجربة</a>
+    </nav>
+    <div class="header-end">
+      <button class="lang" id="lang" type="button">English</button>
+      <a class="btn btn-small" href="#join" data-i18n="ctaShort">جرّب التطبيق</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Intro -->
+    <section class="hero" id="top">
+      <h1 class="name" data-i18n="brand">تفقُد</h1>
+      <p class="headline" data-i18n="headline">رعاية كل من تحب في مكان واحد</p>
+      <p class="sub" data-i18n="sub">تفقُد يجمع العائلة في دائرة واحدة عنايةً للمريض. الأدوية والقياسات والمواعيد في مكان واحد.</p>
+      <div class="actions">
+        <a class="btn" href="#join" data-i18n="ctaJoin">انضم إلى النسخة التجريبية</a>
+        <a class="btn btn-glass glass" href="#demo" data-i18n="ctaDemo">خذ جولة داخل تفقُد</a>
+      </div>
+
+      <!-- Cover: the care circle -->
+      <div class="circle" role="img" data-i18n-aria="circleAria" aria-label="دائرة رعاية: الأم في المنتصف وحولها أبناؤها، وكل واحد يسجّل ما قام به">
+        <div class="ring glass"></div>
+        <div class="node center"><span class="face f-mom" data-i18n="momI">أ</span><b data-i18n="mom">أمي</b></div>
+        <div class="node n1"><span class="face f1" data-i18n="sarahI">س</span><b data-i18n="sarah">سارة</b></div>
+        <div class="node n2"><span class="face f2" data-i18n="fahadI">ف</span><b data-i18n="fahad">فهد</b></div>
+        <div class="node n3"><span class="face f3" data-i18n="nouraI">ن</span><b data-i18n="noura">نورة</b></div>
+        <p class="bubble glass k1"><i class="ok"></i><span data-i18n="b1">سارة: أعطتها دواء الضغط ٨:٠٢ ص</span></p>
+        <p class="bubble glass k2"><i class="info"></i><span data-i18n="b2">فهد: قراءة الضغط اليوم ١٢٠/٨٠</span></p>
+        <p class="bubble glass k3"><i class="soon"></i><span data-i18n="b3">نورة: سترافقها إلى موعد العيون يوم الأحد</span></p>
+      </div>
+    </section>
+
+    <!-- Features: the phone stays in place while each feature scrolls past -->
+    <section class="block" id="features">
+      <header class="section-head reveal">
+        <h2 data-i18n="featTitle">ماذا يقدّم تفقُد لعائلتك</h2>
+      </header>
+
+      <div class="scrolly">
+        <div class="scrolly-media" aria-hidden="true">
+          <div class="iphone phone">
+            <img class="shot is-active" src="assets/screens/circle.webp" alt="" width="736" height="1600">
+            <img class="shot" src="assets/screens/plan.webp" alt="" width="736" height="1600" loading="lazy">
+            <img class="shot" src="assets/screens/simple.webp" alt="" width="736" height="1600" loading="lazy">
+          </div>
+        </div>
+
+        <div class="scrolly-steps">
+          <article class="step is-active">
+            <div class="iphone step-phone"><img src="assets/screens/circle.webp" data-i18n-alt="altCircle" alt="شاشة الدائرة في تفقُد" width="736" height="1600" loading="lazy"></div>
+            <h3 data-i18n="f1Title">دائرة الرعاية</h3>
+            <p data-i18n="f1Text">أنشئ دائرة لمن ترعاه، ثم ادعُ من يقوم برعايته برقم الجوال. يوافق المريض على الانضمام، وتحدد أنت ما يراه كل فرد وما يستطيع تعديله.</p>
+          </article>
+          <article class="step">
+            <div class="iphone step-phone"><img src="assets/screens/plan.webp" data-i18n-alt="altPlan" alt="شاشة الخطة في تفقُد" width="736" height="1600" loading="lazy"></div>
+            <h3 data-i18n="f2Title">خطة واحدة للجميع</h3>
+            <p data-i18n="f2Text">حين تسجّل أختك أن والدتك أخذت دواءها، يصلك ذلك في اللحظة نفسها. لا جرعة تُنسى ولا جرعة تتكرر، والأمر نفسه مع قياسات الضغط والسكر والمواعيد.</p>
+          </article>
+          <article class="step">
+            <div class="iphone step-phone"><img src="assets/screens/simple.webp" data-i18n-alt="altSimple" alt="سؤال الدواء في الوضع المبسّط" width="736" height="1600" loading="lazy"></div>
+            <h3 data-i18n="f3Title">الوضع المبسّط</h3>
+            <p data-i18n="f3Text">خط كبير وخيار واحد واضح. يضغط والدك «أخذته»، فتعرف الدائرة كلها.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Demo video on a dark stage -->
+    <section class="stage" id="demo">
+      <div class="stage-inner reveal">
+        <h2 data-i18n="demoTitle">جولة داخل تفقُد</h2>
+        <p data-i18n="demoText">ثماني دقائق من تسجيل الدخول وإنشاء الدائرة، إلى الأدوية والمواعيد وإعدادات الحساب.</p>
+        <div class="screen-frame">
+          <video id="demoVideo" data-src="assets/video/master.m3u8" poster="assets/demo-poster.webp" controls playsinline preload="none" width="1920" height="1080"></video>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="block" id="about">
+      <h2 class="reveal" data-i18n="aboutTitle">لماذا تفقُد</h2>
+      <div class="story reveal">
+        <p data-i18n="s1">في كثير من البيوت، تقع رعاية الوالدين على شخص واحد. يحفظ مواعيد الأدوية والمراجعات، ويجيب كل يوم عن السؤال نفسه في مجموعة العائلة: «أخذت دواءها؟». أردنا أن نوزّع هذا الحمل، فيعرف الجميع ما تم وما ينتظر.</p>
+        <p data-i18n="s2">بدأت الفكرة مع كبار السن، ثم أدركنا أيضًا بأن كل من لديه حالة صحية مستمرة يحتاج للشيء نفسه. فصار تفقُد دائرة رعاية لأي مريض، ومعه وضع مبسّط لمن يحتاجه.</p>
+        <p data-i18n="s3">تفقُد مشروع تخرجنا في <a href="https://www.holbertonschool.com">Holberton School</a>. أنشأناه خلال أكتوبر ونوفمبر 2026 باستخدام Flutter لنظامي iOS و Android، وخادم مبني بـ Flask و PostgreSQL.</p>
+      </div>
+
+
+      <h3 class="timeline-title reveal" data-i18n="tlTitle">رحلة البناء</h3>
+      <ol class="timeline">
+        <li class="glass reveal" style="--i:0"><small data-i18n="t1d">١٨ أكتوبر</small><b data-i18n="t1h">وضعنا الأساس</b><span data-i18n="t1">أول نسخة من التطبيق والخادم وقاعدة البيانات.</span></li>
+        <li class="glass reveal" style="--i:1"><small data-i18n="t2d">٢٧ أكتوبر</small><b data-i18n="t2h">اجتمعت الدائرة</b><span data-i18n="t2">الدخول برقم الجوال، وإنشاء الدائرة، والملف الطبي، والأدوية.</span></li>
+        <li class="glass reveal" style="--i:2"><small data-i18n="t3d">٣ نوفمبر</small><b data-i18n="t3h">اكتملت الخطة</b><span data-i18n="t3">قياسات الضغط والسكر، والمواعيد مع المرافقين.</span></li>
+        <li class="glass reveal" style="--i:3"><small data-i18n="t4d">منتصف نوفمبر</small><b data-i18n="t4h">لكل أفراد البيت</b><span data-i18n="t4">شاشة «اليوم» للمتابعة، والوضع المبسّط لكبار السن.</span></li>
+        <li class="glass reveal" style="--i:4"><small data-i18n="t5d">نهاية نوفمبر</small><b data-i18n="t5h">بين أيدي المختبرين</b><span data-i18n="t5">النسخة التجريبية على TestFlight و Google&nbsp;Play.</span></li>
+      </ol>
+
+      <h3 class="team-title reveal" data-i18n="team">فريق العمل</h3>
+      <div class="team">
+        <div class="member glass reveal">
+          <span class="face f2" data-i18n="aI">ع</span>
+          <h4 data-i18n="alanoud">العنود العريدي</h4>
+          <p data-i18n="alanoudRole">قائدة الفريق ومديرة المشروع</p>
+          <div class="links">
+            <a href="https://www.linkedin.com/in/alanoud-aloraydi">LinkedIn</a>
+            <a href="https://github.com/Alanoud-Aloraydi">GitHub</a>
+            <a href="https://x.com/untamedx_">X</a>
+          </div>
+        </div>
+        <div class="member glass reveal">
+          <span class="face f1" data-i18n="lI">ل</span>
+          <h4 data-i18n="leen">لين القرعاوي</h4>
+          <p data-i18n="leenRole">إدارة العمل، وضمان الجودة، والخادم</p>
+          <div class="links">
+            <a href="https://www.linkedin.com/in/leen-yosef-leenyosef">LinkedIn</a>
+            <a href="https://github.com/oceex">GitHub</a>
+            <a href="https://x.com/oxsfir">X</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="repo glass reveal">
+        <p data-i18n="repoText">كل العمل والتوثيق والاختبارات متاحة للاطلاع.</p>
+        <a class="btn" href="https://github.com/Alanoud-Aloraydi/TFAQUD-Portfolio" data-i18n="repoBtn">افتح المستودع على GitHub</a>
+      </div>
+    </section>
+    <!-- Questions and answers -->
+    <section class="block faq" id="faq">
+      <header class="section-head reveal">
+        <h2 data-i18n="faqTitle">أسئلة؟ أجوبة.</h2>
+      </header>
+      <div class="faq-list reveal">
+        <details open>
+          <summary data-i18n="q1">ما هو تفقُد؟</summary>
+          <p data-i18n="a1">تطبيق عربي يجمع العائلة في دائرة رعاية واحدة حول المريض، فيتابع الجميع الأدوية والقياسات والمواعيد من مكان واحد.</p>
+        </details>
+        <details>
+          <summary data-i18n="q2">هل يجب أن يستخدم المريض التطبيق؟</summary>
+          <p data-i18n="a2">لا. تستطيع العائلة متابعة كل شيء عنه دون أن يستخدمه. وإن أراد المشاركة، فالوضع المبسّط صُمّم له بخط كبير وخيار واحد واضح.</p>
+        </details>
+        <details>
+          <summary data-i18n="q3">من يرى بيانات المريض؟</summary>
+          <p data-i18n="a3">أعضاء دائرته فقط، بعد موافقته، وبحسب الصلاحيات التي يحددها قائد الدائرة. اقرأ <a href="https://tfaqud-api.onrender.com/privacy">سياسة الخصوصية</a>.</p>
+        </details>
+        <details>
+          <summary data-i18n="q4">هل يمكنني رعاية أكثر من شخص؟</summary>
+          <p data-i18n="a4">نعم. لكل شخص دائرته الخاصة، وتتنقّل بين الدوائر بلمسة واحدة.</p>
+        </details>
+        <details>
+          <summary data-i18n="q5">على أي أجهزة يعمل تفقُد؟</summary>
+          <p data-i18n="a5">على iPhone وعلى جوالات Android.</p>
+        </details>
+        <details>
+          <summary data-i18n="q6">كيف أجرّب النسخة التجريبية؟ وهل هي مجانية؟</summary>
+          <p data-i18n="a6">نعم، مجانية. سجّل في <a href="#join">نموذج التجربة</a>، وستصلك الدعوة على بريدك: عبر TestFlight لمستخدمي iPhone، وعبر Google Play لمستخدمي Android.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Beta signup -->
+    <section class="block join reveal" id="join">
+      <div class="join-card glass">
+        <h2 data-i18n="joinTitle">كن من أوائل من يجرّبه</h2>
+        <p class="join-lead" data-i18n="joinLead">تفقُد الآن في مرحلة التجربة على iPhone و Android. سجّل بياناتك، وسنرسل الدعوة إلى بريدك.</p>
+
+        <form id="signup" class="form" novalidate>
+          <fieldset class="field">
+            <legend data-i18n="platform">نوع جوالك</legend>
+            <div class="segment">
+              <label><input type="radio" name="platform" value="iPhone" checked><span>iPhone</span></label>
+              <label><input type="radio" name="platform" value="Android"><span>Android</span></label>
+            </div>
+          </fieldset>
+
+          <label class="field" id="iphoneField">
+            <span data-i18n="iphoneModel">طراز الآيفون</span>
+            <select name="iphoneModel">
+              <option>iPhone 17 Pro / 17 Pro Max</option>
+              <option>iPhone 17 / iPhone Air</option>
+              <option>iPhone 16</option>
+              <option>iPhone 15</option>
+              <option>iPhone 14</option>
+              <option>iPhone 13</option>
+              <option value="iPhone 12 or older" data-i18n="older">iPhone 12 أو أقدم</option>
+            </select>
+          </label>
+
+          <label class="field" id="androidField" hidden>
+            <span data-i18n="androidModel">طراز الجوال</span>
+            <input name="androidModel" type="text" data-i18n-ph="androidPh" placeholder="مثال: Samsung Galaxy S24">
+          </label>
+
+          <label class="field">
+            <span data-i18n="name">الاسم</span>
+            <input name="fullName" type="text" autocomplete="name" required>
+          </label>
+
+          <label class="field">
+            <span data-i18n="email">البريد الإلكتروني</span>
+            <input name="email" type="email" autocomplete="email" dir="ltr" required>
+            <small id="emailHint" data-i18n="hintIos">استخدم البريد المرتبط بـ Apple ID، فإليه تصل دعوة TestFlight.</small>
+          </label>
+
+          <label class="field">
+            <span data-i18n="forWho">لمن ستستخدم تفقُد؟ (اختياري)</span>
+            <select name="forWho">
+              <option value="" data-i18n="pick">اختر</option>
+              <option value="Parent" data-i18n="parent">أحد والديّ</option>
+              <option value="Child" data-i18n="child">طفلي</option>
+              <option value="Myself" data-i18n="self">نفسي</option>
+              <option value="Someone else" data-i18n="other">شخص آخر</option>
+            </select>
+          </label>
+
+          <p class="error" id="formError" role="alert" hidden></p>
+          <button class="btn submit" type="submit" data-i18n="submit">سجّلني</button>
+        </form>
+
+        <div class="done" id="formDone" hidden>
+          <span class="tick" aria-hidden="true"></span>
+          <h3 data-i18n="doneTitle">تم تسجيلك</h3>
+          <p data-i18n="doneText">ستصلك دعوة التجربة على بريدك خلال أيام.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tafaqod social accounts -->
+    <section class="block follow reveal" id="follow">
+      <h2 data-i18n="followTitle">تابع رحلة تفقُد</h2>
+      <p class="follow-lead" data-i18n="followLead">مواقف حقيقية من رعاية الأهل، وكل جديد في التطبيق قبل غيرك.</p>
+      <div class="accounts">
+        <a class="account glass" href="https://x.com/tfaqud">
+          <b>X</b>
+          <span data-i18n="xText">أخبار الإطلاق والتحديثات أولًا بأول</span>
+          <small dir="ltr">@tfaqud</small>
+          <em data-i18n="followBtn">تابِع</em>
+        </a>
+        <a class="account glass" href="https://www.instagram.com/tfaqud">
+          <b>Instagram</b>
+          <span data-i18n="igText">قصص من يوميات الرعاية في البيت</span>
+          <small dir="ltr">@tfaqud</small>
+          <em data-i18n="followBtn">تابِع</em>
+        </a>
+        <a class="account glass" href="https://www.tiktok.com/@tfaqud">
+          <b>TikTok</b>
+          <span data-i18n="ttText">مقاطع قصيرة تُريك التطبيق خطوة بخطوة</span>
+          <small dir="ltr">@tfaqud</small>
+          <em data-i18n="followBtn">تابِع</em>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p data-i18n="foot">تفقُد، مشروع تخرج في Holberton School، 2026</p>
+    <p><span data-i18n="contact">راسلنا:</span> <a href="mailto:tafaqod.app@gmail.com">tafaqod.app@gmail.com</a></p>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
