@@ -91,6 +91,10 @@ a { color: var(--violet); }
 .sub { max-width: 600px; margin: 16px auto 32px; color: var(--slate); font-size: 1.15rem; }
 .actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
 
+/* Saudi made badge */
+.made { display: inline-block; margin-bottom: 40px; padding: 6px 18px; border-radius: 999px; font: 600 .95rem "Readex Pro", sans-serif; }
+.made.glass { color: #1C6E48; background: rgba(231, 248, 240, .85); border-color: rgba(255, 255, 255, .9); box-shadow: inset 0 1px 1px #fff, 0 6px 16px rgba(28, 110, 72, .12); }
+
 /* Cover: the care circle */
 .circle { position: relative; width: min(540px, 100%); aspect-ratio: 1; margin: 56px auto 70px; }
 .ring { position: absolute; inset: 14%; border-radius: 50%; }
@@ -194,6 +198,10 @@ a { color: var(--violet); }
 .links a { padding: 6px 16px; border-radius: 999px; background: rgba(255, 255, 255, .7); text-decoration: none; font-weight: 500; font-size: .92rem; }
 .repo { max-width: 680px; margin: 64px auto 0; padding: 32px; border-radius: 32px; text-align: center; }
 .repo p { margin-bottom: 16px; font-size: 1.1rem; }
+
+/* Closing promise */
+.promise { width: var(--width); margin: 0 auto; padding: clamp(60px, 9vw, 110px) 0; text-align: center; }
+.promise p { font: 700 clamp(2rem, 5.4vw, 3.8rem)/1.3 "Readex Pro", sans-serif; color: var(--violet); text-wrap: balance; }
 
 /* Questions and answers */
 .faq-list { max-width: 780px; margin: 0 auto; display: grid; gap: 12px; }
