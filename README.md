@@ -1,3 +1,5 @@
+<img src="assets/brand/logo.png" alt="Tafaqod logo" width="96">
+
 # Tafaqod Landing Page | صفحة تفقُد
 
 The landing page for [Tafaqod](https://github.com/Alanoud-Aloraydi/TFAQUD-Portfolio), our Holberton School Portfolio Project. Arabic by default, with an English switch.
