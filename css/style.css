@@ -73,9 +73,8 @@ a { color: var(--violet); }
   mix-blend-mode: soft-light;
 }
 .header > * { position: relative; }
-.brand { display: flex; align-items: center; gap: 10px; font-size: 1.45rem; font-weight: 700; color: var(--violet); text-decoration: none; }
-.brand img { width: 36px; height: 36px; }
-.hero-logo { display: block; width: clamp(92px, 10vw, 120px); height: auto; margin: 0 auto 52px; filter: drop-shadow(0 12px 22px rgba(63, 42, 101, .2)); }
+.brand { display: flex; align-items: center; gap: 14px; font-size: 1.45rem; font-weight: 700; color: var(--violet); text-decoration: none; }
+.brand img { flex: none; width: 36px; height: 36px; }
 .nav { display: flex; gap: 30px; }
 .nav a { color: var(--ink); text-decoration: none; font-weight: 500; }
 .nav a { padding: 6px 14px; border-radius: 999px; transition: background .3s, color .3s; }
