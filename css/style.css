@@ -91,10 +91,6 @@ a { color: var(--violet); }
 .sub { max-width: 600px; margin: 16px auto 32px; color: var(--slate); font-size: 1.15rem; }
 .actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
 
-/* Saudi made badge */
-.made { display: inline-block; margin-bottom: 40px; padding: 6px 18px; border-radius: 999px; font: 600 .95rem "Readex Pro", sans-serif; }
-.made.glass { color: #1C6E48; background: rgba(231, 248, 240, .85); border-color: rgba(255, 255, 255, .9); box-shadow: inset 0 1px 1px #fff, 0 6px 16px rgba(28, 110, 72, .12); }
-
 /* Cover: the care circle */
 .circle { position: relative; width: min(540px, 100%); aspect-ratio: 1; margin: 56px auto 70px; }
 .ring { position: absolute; inset: 14%; border-radius: 50%; }
